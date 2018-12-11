@@ -1,0 +1,61 @@
+{
+	"masterPicture": "TODO: Path to your master picture",
+	"iconsPath": "/",
+	"design": {
+		"ios": {
+			"pictureAspect": "backgroundAndMargin",
+			"backgroundColor": "#4aa161",
+			"margin": "21%",
+			"assets": {
+				"ios6AndPriorIcons": false,
+				"ios7AndLaterIcons": false,
+				"precomposedIcons": false,
+				"declareOnlyDefaultIcon": true
+			},
+			"appName": "TXCast"
+		},
+		"desktopBrowser": {},
+		"windows": {
+			"pictureAspect": "whiteSilhouette",
+			"backgroundColor": "#4aa161",
+			"onConflict": "override",
+			"assets": {
+				"windows80Ie10Tile": false,
+				"windows10Ie11EdgeTiles": {
+					"small": false,
+					"medium": true,
+					"big": false,
+					"rectangle": false
+				}
+			},
+			"appName": "TXCast"
+		},
+		"androidChrome": {
+			"pictureAspect": "shadow",
+			"themeColor": "#4aa161",
+			"manifest": {
+				"name": "TXCast",
+				"display": "browser",
+				"orientation": "notSet",
+				"onConflict": "override",
+				"declared": true
+			},
+			"assets": {
+				"legacyIcon": false,
+				"lowResolutionIcons": false
+			}
+		},
+		"safariPinnedTab": {
+			"pictureAspect": "blackAndWhite",
+			"threshold": 50,
+			"themeColor": "#5bbad5"
+		}
+	},
+	"settings": {
+		"scalingAlgorithm": "Mitchell",
+		"errorOnImageTooSmall": false,
+		"readmeFile": false,
+		"htmlCodeFile": false,
+		"usePathAsIs": false
+	}
+}
